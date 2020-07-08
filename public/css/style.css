@@ -45,8 +45,8 @@ body {
 	margin: 0;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	font-size: .875rem;
-	line-height: 1.6;
+	font-size: 1.0rem;
+	line-height: 2.0;
 	word-wrap: break-word;
 	background: #f7f7f7;
 	-webkit-font-smoothing: antialiased;
@@ -193,7 +193,7 @@ a {
 }
 
 a:hover {
-	color: #e22d30;
+	color: #74e7fc;
 }
 
 hr {
@@ -378,12 +378,14 @@ select {
 
 /* Header */
 .header {
-	background: #fff;
+	background: #0f4666;
 }
 
 .logo {
+	text-align: center;
 	padding: 25px;
 }
+
 
 .logo__link {
 	display: inline-block;
@@ -399,7 +401,8 @@ select {
 }
 
 .logo__text {
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
+	color: white;
 }
 
 .logo--mixed .logo__item {
@@ -416,24 +419,30 @@ select {
 }
 
 .logo__title {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	font-size: 32px;
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #000;
 }
 
 .logo__tagline {
-	display: inline-block;
+	/*display: inline-block;*/
 	padding-top: 10px;
 	margin-top: 10px;
 	font-size: 14px;
 	font-size: .875rem;
-	font-weight: 700;
-	line-height: 1;
-	color: #e22d30;
-	border-top: 1px solid #ebebeb;
+	font-weight: 500;
+	line-height: 0.5;
 }
+
+a.logot {
+	color: white;
+  }
+  a.logot:hover {
+	color: #74e7fc;
+  }
 
 .divider {
 	height: 5px;
@@ -1149,6 +1158,8 @@ textarea {
 }
 
 .footer__container {
+	display: block;
+	text-align: center;
 	-webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
 	-webkit-justify-content: space-between;
@@ -1167,6 +1178,7 @@ textarea {
 .footer a:hover {
 	text-decoration: underline;
 }
+
 
 /* Media Queries */
 @media screen and (max-width: 1475px) {
@@ -1192,6 +1204,7 @@ textarea {
 
 	.footer__container {
 		display: block;
+		text-align: center;
 	}
 
 	.footer__links {
