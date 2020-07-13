@@ -506,20 +506,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin: 1.25rem auto;
 }
 
-.content .alignleft {
-	display: inline;
-	float: left;
-	margin: 5px 20px 20px 0;
-	margin: .3125rem 1.25rem 1.25rem 0;
-}
-
-.content .alignright {
-	display: inline;
-	float: right;
-	margin: 5px 0 20px 20px;
-	margin: .3125rem 0 1.25rem 1.25rem;
-}
-
 .content ul {
 	list-style: square;
 }
@@ -791,3 +777,4 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 		font-size: 24px;
 		font-size: 1.5rem;
 	}
+}
