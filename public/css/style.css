@@ -484,6 +484,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .warning a,
 .authorbox__description a {
 	font-weight: 700;
+	text-decoration: underline;
 	color: #000000;
 }
 
